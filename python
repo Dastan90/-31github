@@ -1,0 +1,8 @@
+first_name = "Dastan"
+last_name = "Tashybekov"
+print(first_name + " " + last_name)
+
+born_years = 1990
+date = 2023
+age = date - born_years
+print(age)
