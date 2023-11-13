@@ -1,0 +1,53 @@
+a = 7
+print(a)
+7
+  
+var_a = "hello"
+print(var_a)
+hello
+  
+a = 7.8
+print(a)
+7.8
+  
+a = 7
+b = "hello"
+b = -8.4
+ptint(a, b)
+7, -8.4
+
+a,b = 1, 2
+print(a,b)
+1, 2
+
+a,b = 1, 2
+a, b = b, a
+print(a,b)
+2, 1
+
+x = 5.8
+s = "hello"
+print(type(x), type(s))
+class float, class str
+
+msg = "Сообщение"
+count = 0
+arg = 1
+Arg = 1
+
+help() keywords    
+                    break
+False               class
+None                continue
+True                def
+__peg_parser__      del
+and                 elif
+as                  else
+assert              except
+async                
+await
+
+
+
+  
+  
