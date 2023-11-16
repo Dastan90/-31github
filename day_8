@@ -1,0 +1,33 @@
+a = -6.84
+print(abs(a * 2 + 3))
+11.84
+
+a = -6.84
+b = 7
+c = 25.6
+print(a, b, c, sep=" | "
+-6.84 | 7 | 25.6
+
+print("Hello")
+print("World")
+Hello World
+
+x = 5.76
+y = -8
+print("Координаты точки: x = ", x, "; y = ", y, sep="")
+Координаты точки: x = 5.76; y = -8
+
+a = int(input())
+b = abs(a)
+print(b, type(b))
+
+a = float(input())
+b = abs(a)
+print(b, type(b))
+
+a = float(input("Введите длину прямоугольника: "))
+b = float(input("Введите ширину прямоугольника: "))
+// print("Perimetr: ", 2 * (a + b))
+
+, b, c = map(float, input("Введите две стороны прямоугольника: ").split())
+print("Периметр: ", 2*(a + c + b))
