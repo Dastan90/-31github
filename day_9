@@ -1,0 +1,79 @@
+4 > 2
+True
+
+4 > 7
+False
+
+a = 5 
+b = 7.8
+res = a > b
+print(res)
+False
+
+type(res)
+class bool
+
+True
+
+False
+
+res = True
+print(res)
+True
+
+5 == 7 - 2
+True
+
+8 >= 8
+True
+
+8 > 8
+False
+
+x = 6
+x == 6
+True
+
+x % 2 == 0
+True
+
+x = 7
+x % 2 == 0
+False
+
+x % 2 != 0
+True
+
+y = 1.85
+y >= -2 and y <= 5
+True
+
+y <= -2 or y >= 5
+False
+
+-2 <= y <= 5
+True
+
+x % 2 == 0 or x % 3 == 0
+False
+
+x % 2 != 0 and x % 3 != 0
+True
+
+not (x % 2 != 0 and x % 3 != 0)
+False
+
+bool()
+False
+
+bool(1)
+True
+
+bool("")
+False
+
+bool(" ")
+True
+
+bool(0)
+False
