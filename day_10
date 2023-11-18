@@ -1,0 +1,56 @@
+s_1 = "Панда"
+text = '''Я Python выучил бы только за то,
+что есть популярные курсы.
+Много популярных курсов'''
+print(s_1)
+"Панда
+print(text)
+"Я Python выучил бы только за то,
+что есть популярные курсы.
+Много популярных курсов."
+
+s1 = "i love"
+s2 = "python"
+print(s1 + s2)
+"i lovepython"
+
+print(s1 + " " + s2)
+"i love python"
+  
+print(s1 + str(5))
+"i love5"
+
+str(True)
+"True"
+  
+str(56.5)
+"56.5"
+  
+print("ha " * 5)
+"ha ha ha ha ha"
+  
+print(len("Hello"))
+5
+  
+a = "hello"
+print(len(a))
+5
+print("ab" in "abracadabra")
+True
+print("abc" in "abracadabra")
+False
+  
+print(a == "hello")
+True
+print(a == "Hello")
+False
+print(a != "hello")
+False
+print("cat" > "cap")
+True
+print("cat" > "Cat")
+True
+print(ord("a"))
+97
+print(ord("A"))
+65
