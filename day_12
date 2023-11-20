@@ -1,0 +1,56 @@
+s = "python"
+print(type(s))
+
+print(s.upper())
+
+res = s.upper()
+print(res)
+
+print(res.lower())
+
+msg = "abrakadabra"
+print(msg.count("ra"))
+
+print(msg.count("ra", 4))
+
+print(msg.count("ra", 4, 10))
+
+print(msg.count("ra", 4, 11))
+
+print(msg.find("br"))
+
+print(msg.find("br", 2))
+
+print(msg.find("brr"))
+
+print(msg.rfind("br"))
+
+# print(msg.index("brr"))
+
+print(msg.replace("a", "o"))
+
+print(msg.replace("ab", ""))
+
+print(msg.isalpha())
+
+print("hello world".isalpha())
+
+print(msg.isdigit())
+
+d = "abc"
+print(d.rjust(5))
+
+d = "12"
+print(d.rjust(4, "0"))
+
+print(d.ljust(10, "*"))
+
+print("Tashybekov Dastan Ruslanbekovich".split(" "))
+
+digs = "1, 2, 3, 4, 5,6"
+print(digs.replace(" ", "").split(","))
+
+d = ["1", "2", "3", "4", "5", "6"]
+print(", ".join(d))
+
+print("   Hello world      \n".strip())
