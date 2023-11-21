@@ -1,0 +1,23 @@
+t = "panda\npython"
+print(t)
+
+t = "\tpanda needs\npython"
+print(t)
+
+t = "panda \\needs\\ python"
+print(t)
+
+s = "Marka vine \"Yagodka\""
+print(s)
+
+s = 'Marka vine "Yagodka"'
+print(s)
+
+path = "D:\\Python\\Projects\\stepik\\text1.py"
+print(path)
+
+path = r"D:\\Python\\Projects\\stepik\\text1.py"
+print(path)
+
+path = r"D:\Python\Projects\stepik\text1.py"
+print(path)
