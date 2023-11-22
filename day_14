@@ -1,0 +1,9 @@
+age = 33
+name = "Dastan"
+print("My name is " + name + ", i am " + str(age) + " and i love language Python")
+
+print("My name is {0}, i am {1} and i love language Python".format(name, age))
+
+print("My name is {fio}, i am {old} and i love language Python".format(fio=name, old=age))
+
+print(f"My name is {len(name)}, i am {age*2} and i love language Python")
