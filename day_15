@@ -1,0 +1,51 @@
+a = ["Mockov", "tver", "volgrad"]
+marks = [2, 3, 4, 3, 5, 2]
+print((marks[0] + marks[1] + marks[2] + marks[3] + marks[4] + marks[5]) / 6)
+
+marks[0] = 3
+print(marks)
+
+marks[1] = "udov"
+print(marks)
+
+lst = ['Mockov', 1320, 5.8, True, "Tver", False]
+print(lst)
+
+lst_2 = [1, 2.5, [-1, -2, -3], 4]
+print(lst_2)
+
+a = []
+
+b = list()
+
+print(list("python"))
+
+print(len(marks))
+
+t = [23.5, 25.6, 27.3, 26.0, 30.4, 29.5]
+print(min(t), max(t))
+
+print(sum(t))
+
+print(sum(t) / len(t))
+
+t_sort = sorted(t)
+print(t)
+
+s = list("python")
+print(max(s), min(s))
+
+print(sorted(s))
+
+print([1, 2, 3] + [4, 5])
+
+print(["I", "love", "python"] * 3)
+
+print(["I"] + ["love"] * 3 + ["Python"])
+
+print(1320 in lst)
+
+print([1, 2] in lst)
+
+del lst[2]
+print(lst)
