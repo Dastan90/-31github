@@ -1,0 +1,48 @@
+a = [1, -54, 3, 23, 43, -45, 0]
+a.append(100)
+print(a)
+
+a.append(True)
+print(a)
+
+a.append([1, 2, 3])
+print(a)
+
+a.insert(3, -1000)
+print(a)
+
+a.remove(True)
+print(a)
+
+a.remove(True)
+print(a)
+
+a.pop()
+print(a)
+
+a.pop(3)
+print(a)
+
+a.clear()
+print(a)
+
+a = [1, -54, 3, 23, 43, -45, 0]
+c = a.copy()
+print(id(a), id(c))
+
+print(c.count(1))
+
+print(c.index(1))
+
+print(c.index(-54))
+
+# print(c.index(1, 2))
+
+c.reverse()
+print(c)
+
+c.sort()
+print(c)
+
+c.sort(reverse=True)
+print(c)
