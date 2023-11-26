@@ -1,0 +1,31 @@
+line = [1, 7, 6, 11, 3]
+
+img = [[1, 7, 6, 11, 3], [1, 7, 6, 11, 3], [1, 7, 6, 11, 3], [1, 7, 6, 11, 3,], [1, 7, 6, 11, 3]]
+
+img = [line[:], line[:], line[:], line[:], line[:]]
+
+print(line)
+print(img)
+
+print(img[0])
+
+print(img[0][1])
+
+img[1] = [0] * 5
+print(img)
+
+img[1][:] = [1] * 5
+print(img)
+
+t = [["Love", "you", "Diana", "tvorene"],
+     ["Love", "your", "strange", "strong", "view"],
+     ["Nevy", "federation", "line"],
+     ["Beach", "her", "diamond"]
+     ]
+print(t)
+
+t[0][2] = "Python"
+print(t)
+
+t.append(["data", "sience"])
+print(t)
