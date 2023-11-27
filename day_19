@@ -1,0 +1,44 @@
+x = 4
+if x < 0:
+    x = -x
+
+print(x)
+
+a = float(input("a: "))
+b = float(input("b: "))
+
+if a < b:
+    a, b = b, a
+
+print(a, b)
+
+x = int(input())
+
+if x >= -4 and x <= 10:
+    print("x in diapozone [-4, 10]")
+
+x = int(input())
+
+if x:
+    print("x True")
+
+marks = [3, 3, 4, 2, 4]
+
+if 2 in marks:
+    print("student wii be exit")
+else:
+    print("student will be done")
+
+x = int(input())
+
+if x < 0:
+    print("x - minus number")
+else:
+    print("x - do not minus number")
+
+x = int(input())
+
+if x % 2 == 0:
+    print("x - chetnoe chislo")
+else:
+    print("x - do not chetnoe chislo")
