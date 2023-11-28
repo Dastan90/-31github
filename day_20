@@ -1,0 +1,48 @@
+x = int(input())
+
+if x % 2 == 0:
+    if 0 <= x <= 9:
+        print("x - number")
+    else:
+        print("x - not number")
+else:
+    print("x - numbe")
+
+a = int(input("a: "))
+b = int(input("b: "))
+c = int(input("c: "))
+
+if a > b:
+    if a > c:
+        print("a - max")
+    else:
+        print("c - max")
+else:
+    if b > c:
+        print("b - max")
+    else:
+        print("c - max")
+
+item = int(input())
+
+if item == 1:
+    print("Course Python")
+elif item == 2:
+    print("Course C++")
+elif item == 3:
+    print("Course Java")
+elif item == 4:
+    print("Course JavaScript")
+else:
+    print("Warrior")
+
+x = int(input())
+
+if x < 0:
+    print(" x should be +")
+elif 0 <= x <= 9:
+    print("x - sifra")
+elif 10 <= x <= 99:
+    print("x - 2 chislo")
+elif 100 <= x <= 999:
+    print("x - 3 chislo")
