@@ -1,0 +1,42 @@
+for i in range(1, 4):
+    for j in range(1, 6):
+        print(f"i = {i}, j = {j}", end=" ")
+    print()
+
+a = [[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6]]
+
+for row in a:
+    for x in row:
+        print(x, type(x), end=" ")
+    print()
+
+a = [[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6]]
+b = [[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]]
+c = []
+
+for i, row in enumerate(a):
+    r = []
+    for j, x in enumerate(row):
+        r.append(x + b[i][j])
+    c.append(r)
+print(c)
+
+t = ["- Skaji-ka, dyada, ved ne darom",
+     "Ya Python vyuchil s   kanalom",
+     "Balakirev chto   razdaval?",
+     "Ved byli  j  zadaniya boevye,",
+     "Da, govoryat,  eshe  kakie!",
+     "Nedarom pomnit    vsya rossai",
+     "Kak my rubili   ih togda!"
+]
+for i, line in enumerate(t):
+    while line.count("  "):
+        line = line.replace("  ", " ")
+    t[i] = line
+
+print(t)
+
+M, N = list(map(int, input("Vveedite M and N: ").split()))
+zeros = []
+for i in range(M):
+    zeros.append([0] * N)
