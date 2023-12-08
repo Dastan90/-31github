@@ -1,0 +1,8 @@
+name = "Dastan"
+last_name = "Tashybekov"
+age = "33"
+password = input("Vvedite parol: ")
+if password == "password":
+  print(f"Welcome {name} + " " + {last_name})
+else: 
+print("Nevernyi password")
